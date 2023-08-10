@@ -126,7 +126,7 @@ az deployment group create --resource-group {resourceGroup} \
 ```bash
 dotnet publish -o ./artifacts 
 cd artifacts
-zip -r -X arcifacts.zip *
+zip -r -X artifacts.zip *
 ```
 
 2. Deploy zip file to Azure Function App
